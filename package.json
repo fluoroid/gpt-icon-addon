@@ -1,0 +1,35 @@
+{
+  "name": "gpt-icon-addon",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ChatGPTにアイコンを追加する拡張機能",
+  "main": "index.html",
+  "author": "Fluoroid",
+  "license": "MIT + CC BY-NC-ND 4.0. See LICENSE",
+  "homepage": "https://github.com/fluoroid/gpt-icon-addon#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fluoroid/gpt-icon-addon.git"
+  },
+  "scripts": {
+    "dev": "cross-env NODE_ENV='development' webpack -w",
+    "build": "cross-env NODE_ENV='production' webpack"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "openai": "^4.83.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.299",
+    "@types/node": "^22.13.1",
+    "cross-env": "^7.0.3",
+    "css-loader": "^7.1.2",
+    "dotenv-webpack": "^8.1.0",
+    "style-loader": "^4.0.0",
+    "terser-webpack-plugin": "^5.3.11",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.7.3",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
