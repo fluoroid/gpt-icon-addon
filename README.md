@@ -1,7 +1,7 @@
 ![svg](https://img.shields.io/badge/-Typescript-007ACC.svg?logo=typescript&style=plastic)
 ![svg](https://img.shields.io/badge/license-MIT-blue.svg)
 
-# shel-ai-browser
+# gpt-icon-addon
 
 ## Overview (これはなに？)
 

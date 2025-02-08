@@ -1,8 +1,8 @@
 {
   "name": "gpt-icon-addon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
-  "description": "ChatGPTにアイコンを追加する拡張機能",
+  "description": "ChatGPTにアイコンを追加するChrome拡張機能",
   "main": "index.html",
   "author": "Fluoroid",
   "license": "MIT + CC BY-NC-ND 4.0. See LICENSE",
