@@ -5,8 +5,10 @@
 
 ## Overview (これはなに？)
 
+![png](screen.png)
+
 ChatGPT に今まで通りのアイコンを追加する Chrome 拡張機能だよ。
-シェルちゃんのアイコンを追加します。
+デフォルトではシェルちゃんのアイコンを追加します。
 
 ## Requirement
 
@@ -21,8 +23,9 @@ ChatGPT に今まで通りのアイコンを追加する Chrome 拡張機能だ�
 
 ## License
 
-ソースコードは MIT Licenses ですが、サイト内で公開されている文章や画像(イラスト)等のコンテンツには CC Licenses (CC BY-NC-ND 4.0)が適用されます。詳しくは LICENSE をご覧ください。
+ソースコードは MIT Licenses ですが、デフォルトで入っているシェルちゃんのアイコンは CC Licenses (CC BY-NC-ND 4.0)が適用されます。
+詳しくは LICENSE をご覧ください。
 
-The source code is licensed MIT. The website content is licensed CC BY-NC-ND 4.0, see LICENSE.
+The source code is licensed MIT. The icon image is licensed CC BY-NC-ND 4.0, see LICENSE.
 
 ![png](https://creativecommons.jp/wp-content/uploads/2015/04/by-nc-nd.png?w=300)
