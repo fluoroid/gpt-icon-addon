@@ -1,6 +1,6 @@
 {
   "name": "gpt-icon-addon",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": true,
   "description": "ChatGPTにアイコンを追加するChrome拡張機能",
   "main": "index.html",
@@ -16,20 +16,20 @@
     "build": "cross-env NODE_ENV='production' webpack"
   },
   "dependencies": {
-    "dotenv": "^16.4.7",
-    "openai": "^4.83.0"
+    "dotenv": "^16.5.0",
+    "openai": "^4.95.0"
   },
   "devDependencies": {
-    "@types/chrome": "^0.0.299",
-    "@types/node": "^22.13.1",
+    "@types/chrome": "^0.0.315",
+    "@types/node": "^22.14.1",
     "cross-env": "^7.0.3",
     "css-loader": "^7.1.2",
     "dotenv-webpack": "^8.1.0",
     "style-loader": "^4.0.0",
-    "terser-webpack-plugin": "^5.3.11",
+    "terser-webpack-plugin": "^5.3.14",
     "ts-loader": "^9.5.2",
-    "typescript": "^5.7.3",
-    "webpack": "^5.97.1",
+    "typescript": "^5.8.3",
+    "webpack": "^5.99.5",
     "webpack-cli": "^6.0.1"
   }
 }
