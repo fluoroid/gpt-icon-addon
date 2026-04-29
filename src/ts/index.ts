@@ -1,5 +1,5 @@
 /* 
-Copyright (c) 2025 Fluoroid (Syar Star Observatory)
+Copyright (c) 2026 Fluoroid (Syar Star Observatory)
 This software is released under the MIT License, see LICENSE.
 This website contents (docs, images...) are released under the CC BY-NC-ND 4.0 License, see LICENSE.
 */
@@ -23,8 +23,8 @@ const main = () => {
       if (mutation.target instanceof Element) {
         Array.from(
           mutation.target.querySelectorAll<HTMLDivElement>(
-            "div[data-message-author-role='assistant']"
-          )
+            "div[data-message-author-role='assistant']",
+          ),
         ).map((div) => {
           for (let i = 0; i < div.children.length; i++) {
             if (div.children[i].classList.contains("shel-icon")) {
