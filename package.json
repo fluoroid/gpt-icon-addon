@@ -1,6 +1,6 @@
 {
   "name": "gpt-icon-addon",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": true,
   "description": "ChatGPTにアイコンを追加するChrome拡張機能",
   "main": "index.html",
