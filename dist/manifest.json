@@ -1,8 +1,13 @@
 {
   "name": "GPT Icon Add-on",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "manifest_version": 3,
   "description": "ChatGPTにアイコンを追加する拡張機能",
+  "icons": {
+    "16": "./icon/icon-16.png",
+    "48": "./icon/icon-48.png",
+    "128": "./icon/icon-128.png"
+  },
   "content_scripts": [
     {
       "matches": ["https://chatgpt.com/*"],

@@ -9,16 +9,17 @@
 
 ChatGPT に今まで通りのアイコンを追加する Chrome 拡張機能だよ。
 デフォルトではシェルちゃんのアイコンを追加します。
+プロジェクトファイルの画像を置換して、好きなアイコンに変更してみてね。
 
 ## Requirement
 
-- Node.js 18.17 or later
+- Node.js 24 以降を推奨
 
 ## Author
 
 ふるおろいど (Fluoroid)
 
-- [Misskey.io](https://misskey.io/@Fluoroid)
+- [Misskey](https://mi.syarstar.net/@fluoroid)
 - [GitHub](https://github.com/fluoroid)
 
 ## License
