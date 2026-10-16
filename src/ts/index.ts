@@ -11,21 +11,21 @@ import "../css/style.css";
  */
 const main = () => {
   /**
-   * mainタグ
+   * body
    */
-  const mainElement = document.querySelector("main");
+  const mainElement = document.body;
 
   /**
    * オブザーバー
    */
-  const observer = new MutationObserver((mutations) => {
-    mutations.forEach((mutation) => {
+  const observer = new MutationObserver((mutations: MutationRecord[]) => {
+    mutations.forEach((mutation: MutationRecord) => {
       if (mutation.target instanceof Element) {
         Array.from(
           mutation.target.querySelectorAll<HTMLDivElement>(
-            "div[data-message-author-role='assistant']",
+            `div[data-markdown-text-style="assistant-message"]`,
           ),
-        ).map((div) => {
+        ).map((div: HTMLDivElement) => {
           for (let i = 0; i < div.children.length; i++) {
             if (div.children[i].classList.contains("shel-icon")) {
               return;
@@ -48,9 +48,14 @@ const main = () => {
           iconImg.classList.add("shel-icon-img");
           iconContainer.appendChild(iconImg);
 
-          div.style.marginLeft = "24px";
+          // アイコン追加
+          div.prepend(iconContainer);
 
-          div.appendChild(iconContainer);
+          // アイコン直後のdiv要素の空白を取り除く
+          const secondElement = div.children[1];
+          if (secondElement instanceof HTMLDivElement) {
+            secondElement.classList.remove("my-4");
+          }
         });
       }
     });
