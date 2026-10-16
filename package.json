@@ -16,11 +16,11 @@
     "build": "cross-env NODE_ENV='production' webpack"
   },
   "dependencies": {
-    "dotenv": "^18.0.5"
+    "dotenv": "^18.0.8"
   },
   "devDependencies": {
-    "@types/chrome": "^0.3.4",
-    "@types/node": "^26.6.4",
+    "@types/chrome": "^0.3.5",
+    "@types/node": "^26.6.5",
     "cross-env": "^10.1.0",
     "css-loader": "^7.1.5",
     "dotenv-webpack": "^9.0.0",
